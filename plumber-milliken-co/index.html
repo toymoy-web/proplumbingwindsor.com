@@ -29,7 +29,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0E5A3C">
-<link rel="preload" as="image" href="/assets/img/plumber-milliken-co-hero-800.webp" imagesrcset="/assets/img/plumber-milliken-co-hero-800.webp 800w, /assets/img/plumber-milliken-co-hero.webp 1600w" imagesizes="(min-width: 900px) 480px, 100vw" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/img/plumber-milliken-co-hero-800.webp" imagesrcset="/assets/img/plumber-milliken-co-hero-800.webp 800w, /assets/img/plumber-milliken-co-hero.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <link rel="stylesheet" href="/assets/main.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Service", "@id": "https://proplumbingwindsor.com/plumber-milliken-co/#service", "name": "Emergency plumbing in Milliken, CO", "serviceType": "Plumbing", "url": "https://proplumbingwindsor.com/plumber-milliken-co/", "description": "Licensed 24/7 emergency plumber serving Milliken, CO from Windsor-based Windsor Pro Plumbing. Sewer line repair and water heater repair. Call now.", "provider": {"@id": "https://proplumbingwindsor.com/#business"}, "areaServed": {"@type": "City", "name": "Milliken", "containedInPlace": {"@type": "State", "name": "Colorado"}}, "image": "https://proplumbingwindsor.com/assets/img/plumber-milliken-co-hero.webp"}, {"@type": "WebPage", "@id": "https://proplumbingwindsor.com/plumber-milliken-co/", "url": "https://proplumbingwindsor.com/plumber-milliken-co/", "name": "Emergency Plumber Milliken CO 80543 | Windsor Pro Plumbing", "description": "Licensed 24/7 emergency plumber serving Milliken, CO from Windsor-based Windsor Pro Plumbing. Sewer line repair and water heater repair. Call now.", "isPartOf": {"@id": "https://proplumbingwindsor.com/#website"}, "primaryImageOfPage": {"@type": "ImageObject", "url": "https://proplumbingwindsor.com/assets/img/plumber-milliken-co-hero.webp", "width": 1600, "height": 900}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://proplumbingwindsor.com/"}, {"@type": "ListItem", "position": 2, "name": "Areas", "item": "https://proplumbingwindsor.com/areas/"}, {"@type": "ListItem", "position": 3, "name": "Milliken", "item": "https://proplumbingwindsor.com/plumber-milliken-co/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you cover every ZIP code in Milliken?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Milliken's own ZIP is 80543, which handles street delivery in town. Addresses toward Greeley and Evans can carry 80634, and those toward Platteville and Gilcrest can carry 80651. We answer emergency calls from all three."}}, {"@type": "Question", "name": "My house was built in the 1970s. What should I check?", "acceptedAnswer": {"@type": "Answer", "text": "Have the sewer line scoped by camera and the supply piping and shutoffs checked. Original water heaters should already be replaced."}}, {"@type": "Question", "name": "What is Orangeburg pipe?", "acceptedAnswer": {"@type": "Answer", "text": "A tar-impregnated fiber pipe used in sewer lines until the early 1970s. It can sag or collapse with age, so a camera inspection is the first step."}}, {"@type": "Question", "name": "Do you serve Old Town Milliken?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Old Town, Hillsboro and every subdivision reach the same 24/7 line."}}, {"@type": "Question", "name": "Do you give free estimates for older homes in Milliken?", "acceptedAnswer": {"@type": "Answer", "text": "A free estimate covers planned work like a sewer line follow-up or a heater swap. For emergencies the price is stated before any work starts."}}, {"@type": "Question", "name": "Is emergency service available in Milliken?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Dispatch for Milliken answers around the clock, which matters in a house where a 1970s water heater or an aging sewer line can fail without warning. Tell us the street and what is happening, and the price comes before the work. Greeley to the northeast shares it."}}]}]}</script>
 </head>
@@ -150,7 +150,9 @@
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 <main id="main-content">
 
-<div class="pagehead"><div class="container pagehead-grid">
+<div class="pagehead has-hero">
+ <img class="hero-bg" src="/assets/img/plumber-milliken-co-hero.webp" srcset="/assets/img/plumber-milliken-co-hero-800.webp 800w, /assets/img/plumber-milliken-co-hero.webp 1600w" sizes="100vw" width="1600" height="900" alt="Historic photograph of a two-story school building on a dirt street" loading="eager" fetchpriority="high" decoding="async">
+ <div class="container">
  <div class="pagehead-text">
   <nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/areas/">Areas</a> / Milliken</nav>
   <p class="badge-247"><span class="live-dot" aria-hidden="true"></span>24/7 Emergency Line Open</p>
@@ -160,11 +162,9 @@
   <ul class="chips"><li class="chip">24/7 emergency line</li><li class="chip">Homes from every era</li><li class="chip">Price before work starts</li></ul>
   <div class="zips"><span class="zips-label">ZIP codes covered</span><span class="zip-chip">80543</span><span class="zip-chip">80634</span><span class="zip-chip">80651</span></div>
  </div>
- <figure class="pagehead-fig"><img class="photo" src="/assets/img/plumber-milliken-co-hero.webp" srcset="/assets/img/plumber-milliken-co-hero-800.webp 800w, /assets/img/plumber-milliken-co-hero.webp 1600w" sizes="(min-width: 900px) 480px, 100vw" width="1600" height="900" alt="Historic photograph of a two-story school building on a dirt street" loading="eager" fetchpriority="high" decoding="async"></figure>
 </div></div>
 <section class="section"><div class="container twocol">
   <div class="main-col">
-  
   
   
   
@@ -294,11 +294,12 @@
   </section>
   </div>
   <aside class="sidecard" aria-label="Call Milliken">
-    <h2 class="side-h">Plumbing emergency in Milliken?</h2>
-    <p>Tell us the age of the house and what is failing.</p>
+    <p class="side-kick"><span class="live-dot" aria-hidden="true"></span>24/7 Emergency Line Open</p>
+    <h3 class="side-h">Plumbing emergency in Milliken?</h3>
+    <p class="side-copy">Tell us the age of the house and what is failing.</p>
     <a class="btn" href="tel:19707086013">&#9742; (970) 708-6013</a>
-    <ul><li>24/7 emergency line</li><li>Water heater failures</li><li>Sewer line problems</li><li>Supply line leaks</li><li>Sump pump failures</li></ul>
-    <p class="side-mini"><b>Sewage backing up?</b> Stop using water and call. Do not use chemical cleaners.</p>
+    <ul><li>Price explained before work starts</li><li>Licensed and insured</li><li>Same-day service</li><li>Milliken, Weld County</li></ul>
+    <p class="side-link"><a href="/sewer-line-replacement/">Sewer line replacement &rarr;</a></p>
   </aside>
 </div></section>
 <section class="cta-band"><div class="container">

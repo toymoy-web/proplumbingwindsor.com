@@ -1,1 +1,13 @@
-# Intentionally empty. Cloudflare Pages resolves slug/index.html natively.
+# 301s for renamed blog posts (v11 localization)
+/blog/check-plumber-license-colorado/ /blog/check-plumber-license-windsor-co/ 301
+/blog/check-plumber-license-colorado /blog/check-plumber-license-windsor-co/ 301
+/blog/basement-plumbing-northern-colorado/ /blog/basement-plumbing-windsor-co/ 301
+/blog/basement-plumbing-northern-colorado /blog/basement-plumbing-windsor-co/ 301
+/blog/water-heater-flush-schedule-colorado/ /blog/water-heater-flush-windsor-co/ 301
+/blog/water-heater-flush-schedule-colorado /blog/water-heater-flush-windsor-co/ 301
+/blog/find-hidden-water-leak-house/ /blog/find-hidden-water-leak-windsor-co/ 301
+/blog/find-hidden-water-leak-house /blog/find-hidden-water-leak-windsor-co/ 301
+/blog/main-water-shut-off-valve-location/ /blog/main-water-shutoff-valve-windsor-co/ 301
+/blog/main-water-shut-off-valve-location /blog/main-water-shutoff-valve-windsor-co/ 301
+/blog/burst-pipe-insurance-claim-colorado/ /blog/burst-pipe-insurance-claim-windsor-co/ 301
+/blog/burst-pipe-insurance-claim-colorado /blog/burst-pipe-insurance-claim-windsor-co/ 301
