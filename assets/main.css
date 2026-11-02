@@ -354,3 +354,9 @@ main h1,main h2,main h3{margin-bottom:14px}
 .sidecard .side-link a:hover{text-decoration:underline}
 .content-card.localnote{border-left:4px solid var(--accent,#f59e0b);background:#f8fafc}
 .content-card.localnote .kick{color:#0b4a6f}
+
+.footer-social{margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border)}
+.footer-social .foot-h{margin-bottom:.6rem}
+.footer-social ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.site-footer .footer-social a{display:inline-block;margin:0;padding:.4rem .9rem;border:1px solid var(--border);border-radius:999px;font-size:.9rem;font-weight:600;line-height:1.3}
+.site-footer .footer-social a:hover{border-color:var(--primary)}
